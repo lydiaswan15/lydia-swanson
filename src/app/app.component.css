@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
+/* for mobile */
+/* for desktop */
+@media only screen and (min-width: 768px) {
+  .container {
+    display: block;
+  }
+  .body {
+    margin-left: 15vw;
+    margin-right: 15vw;
+    margin-top: 5vh;
+  }
+}
+/*# sourceMappingURL=app.component.css.map */

@@ -1,0 +1,17 @@
+
+<div class="contactContainer">
+    <h2>Let's get in touch!</h2>
+    <form action="">
+        <input type="text" id = "name" placeholder = "Name" #name>
+
+        <input type="text" id = "email" #email placeholder = "Email">
+
+        <textarea name="" id="" cols="30" rows="10" #message placeholder = "Message"></textarea>
+
+        <app-button (btnClick)="testing(name, email, message)" text="Submit"></app-button>
+
+        <p *ngIf="messageSubmitted">Thank you! I'm excited to be in contact with you!</p>
+        <p *ngIf="errorMessage">Oops! Something went wrong! Please reach out over email at lydiaswan15@gmail.com</p>
+    </form>
+
+</div>

@@ -1,0 +1,31 @@
+<div class="navigation">
+
+    <div class = "hamIconGroup">
+        <div class = "hamIcon"></div>
+        <div class = "hamIcon"></div>
+        <div class = "hamIcon"></div>
+    </div>
+    
+    <div class = "navigationMenu">
+
+            <div class = "logos">
+                <ul>
+                    <li><a href="https://linkedin.com/in/lydia-swanson-692856217"><img src="../../../assets/files/linkedin-3-xxl.png" alt=""></a></li>
+                    <li><a href="https://github.com/lydiaswan15"><img src="../../../assets/files/GitHub-Mark-Light-32px.png" alt=""></a></li>
+                </ul>
+            </div>
+
+            <div class = "resumeButton">
+                <app-button text = "Resume" (btnClick)="onDownloadPDF()"[ngClass]="{'currentPage': currentPage == '/home'}" ></app-button>
+            </div>
+
+
+<!-- 
+            <li><app-button text="Contact" (btnClick)="toggleAddClass()" routerLink="/contact" [ngClass]="{'currentPage': currentPage == '/contact'}"></app-button></li>
+            <li id="secondMenu"><app-button text = "About Me" routerLink="/about-me" [ngClass]="{'currentPage': currentPage == '/about-me'}"></app-button></li> -->    
+             <!-- Make sure to look into removing the list  -->
+    
+    </div>
+
+
+</div>
