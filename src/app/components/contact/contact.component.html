@@ -5,11 +5,11 @@
         <div class="contactGrid">
 
             <form action="">
-                <input type="text" id = "name" placeholder = "Name" #name>
+                <input type="text" id = "name" placeholder = "Name" #name required>
         
-                <input type="text" id = "email" #email placeholder = "Email">
+                <input type="text" id = "email" #email placeholder = "Email" required>
         
-                <textarea name="" id="" cols="30" rows="10" #message placeholder = "Message"></textarea>
+                <textarea name="" id="" cols="30" rows="10" #message required placeholder = "Message"></textarea>
 
                 <div class="buttonContainer">
                     <app-button (btnClick)="testing(name, email, message)" text="Submit"></app-button>
@@ -32,8 +32,8 @@
         
                 <div class = "social">
                     <ul>
-                        <li><a href="https://linkedin.com/in/lydia-swanson-692856217"><img src="../../../assets/files/linkedin-3-xxl.png" alt=""></a></li>
-                        <li><a href="https://github.com/lydiaswan15"><img src="../../../assets/files/GitHub-Mark-Light-32px.png" alt=""></a></li>
+                        <li><a href="https://linkedin.com/in/lydia-swanson-692856217" target="_blank"><img src="../../../assets/files/linkedin-3-xxl.png" alt=""></a></li>
+                        <li><a href="https://github.com/lydiaswan15" target="_blank"><img src="../../../assets/files/GitHub-Mark-Light-32px.png" alt=""></a></li>
                                         
                     </ul>
                 </div>

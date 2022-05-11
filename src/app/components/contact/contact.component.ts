@@ -30,11 +30,25 @@ export class ContactComponent implements OnInit {
     console.log('hello');
   }
 
-  testing(name, email, message){
+  testing(name: HTMLInputElement, email: HTMLInputElement, message: HTMLTextAreaElement){
 
+
+
+    if(name.value == ""){
+      alert('Name field is required');
+      return;
+    }
+    else if(email.value == ""){
+      alert('Email field is required');
+      return;
+    }
+    else if(message.value == ""){
+      alert('Message field is required');
+      return;
+    }
+
+    
     let contact = new Contact(name.value, email.value, message.value);
-
-
     try{
       const firebaseConfig = {
         apiKey: "AIzaSyDcBB0zwhFHuKigrnHzyI-HqZ5S-dfBkOE",

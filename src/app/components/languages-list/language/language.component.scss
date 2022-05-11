@@ -11,6 +11,29 @@ $font-color: #99C1B7;
     padding: 20px;
     margin-top: 15px;
     background-color: #1D4942;
+    position: relative;
+    // display: flex;
+    // flex-direction: column;
+
+    .outerLinkBox{
+        display: flex;
+        flex-flow: column;
+        margin: 0px;
+    }
+
+    .linkBox{
+        flex: 1 1 auto;
+        height: 100%;
+    }
+
+    a{
+        position: absolute;
+        color: white;
+        text-decoration: none;
+        bottom: 0;
+        left: 0;
+        padding: 20px;
+    }
 
     .title{
         display: flex;

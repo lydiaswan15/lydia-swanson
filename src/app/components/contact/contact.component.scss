@@ -20,16 +20,26 @@ $font-color: #99C1B7;
         width: 100%;
 
         .phone, .email{
+            margin-top: 1em;
             display: flex;
+            img, h3{
+                margin: 0px;
+            }
+            h3{
+                margin-left: 1em;
+            }
         }
 
         .social{
 
             display: block;
+            margin-top: 2em;
+
 
             ul {
                 display: flex;
                 padding: 0px;
+                margin: 0px;
                 li{
                     list-style-type: none;
                     flex-direction: column;
@@ -86,7 +96,7 @@ form{
         border-color: $font-color;
     }
     input::placeholder, textarea::placeholder{
-        color: $font-color;
+        color: #5D9889;
         font-family: 'Lato', sans-serif;
         padding: 3px;
         font-size: 17px; 
