@@ -11,4 +11,20 @@ $font-color: #99C1B7;
     padding: 20px;
     margin-top: 15px;
     background-color: #1D4942;
+
+    .title{
+        display: flex;
+
+        h3{
+            height: 50%;
+            margin-top: auto;
+            margin-bottom: auto;
+            margin-left: .5em;
+        }
+
+        img{
+            width: 40px;
+            height: 75%;
+        }
+    }
 }

@@ -1,4 +1,7 @@
 <div class="language">
-    <h3>{{language.name}}</h3>
+    <div class="title">
+        <img src="{{language.img}}" alt=""  *ngIf="language.img !== ''">
+        <h3>{{language.name}}</h3>
+    </div>
     <p>{{language.description}}</p>
 </div>
