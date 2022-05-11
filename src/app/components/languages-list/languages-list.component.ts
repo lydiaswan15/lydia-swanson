@@ -11,20 +11,20 @@ export class LanguagesListComponent implements OnInit {
   languages: Language[] = [
     new Language(
       "JavaScript", 
-      "I have spent years studying JavaScript and feel the most comfortable with it.", 
+      "I have spent several years working in JavaScript to create interactive websites. It is my preferred language.  ", 
       "imgURL"),
     new Language("HTML", 
-    "This is a description 2", 
+    "I’ve created many websites using HTML and understand how to structure a website in an organized manner.  ", 
     "imgURL"),
     new Language("CSS/SCSS", 
     "What I love about working in the web is the chance to create sites that are functional and effective, as well as beautiful. I love working in CSS (my preferance is SCSS) to make each site beautiful.", 
     "imgURL"),
     new Language("Angular", 
-    "I have recently started learning Angular and have loved it! I've worked on a few projects in Angular (including this portfolio) and have...", 
+    "I have recently started learning Angular and am loving this framework! I’ve worked on a few project in Angular and this site is built using Angular and Firebase. ",
     "imgURL"),
-    new Language(".NET", "I have built a couple of .NET project using C#. I found these projects incredibly exciting, although a little challenging. ", ""),
+    new Language("ASP.NET", "I have built a couple of ASP.NET projects using C#. I found these projects incredibly exciting!", ""),
     new Language("Other", 
-    "There are many other languages/tools that I have worked with. These include, but are not limited to: .NET, MongoDB, SQL, C#, C++, Java, and more.", 
+    "There are many other languages and tools that I have worked with. These include: ASP.NET, SQL, C#, C++, Java, JSON, API, TypeScript, MongoDB and more.", 
     "imgURL"),
   ]
 

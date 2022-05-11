@@ -2,10 +2,50 @@ $background-color: #173a34;
 $lighter-backgroud: #1A403A;
 $font-color: #99C1B7;
 .contactContainer{
-    margin-right: 15vw;
-    margin-left: 15vw;
-    margin-bottom: 25vh;
+    margin-bottom: 15vh;
     margin-top: 25vh;
+    text-align: center;
+}
+
+.contactGrid{
+    display: grid;
+    grid-template-columns: 1fr;
+    
+
+    .myContact{
+        grid-column: 2;
+
+        margin-top: auto;
+        margin-bottom: auto;
+        width: 100%;
+
+        .phone, .email{
+            display: flex;
+        }
+
+        .social{
+
+            display: block;
+
+            ul {
+                display: flex;
+                padding: 0px;
+                li{
+                    list-style-type: none;
+                    flex-direction: column;
+                    margin: 0px;
+                }
+            }
+        }
+
+        img{
+            width: 20px;
+            height: 20px;
+            margin-top: auto;
+            margin-bottom: auto;
+            margin-right: 20px;
+        }
+    }
 }
 app-heading{
     float: center;
@@ -15,13 +55,19 @@ app-heading{
     text-align: center;
 }
 form{
+
+    width: 75%;
     label{
         display: block;
         color: $font-color;
         margin-top: 10px;
     }
+
+    .buttonContainer{
+        display: flex;
+    }
     app-button{
-        display: block;
+        float: left;
     }
     input, textarea{
         width: 100%;
