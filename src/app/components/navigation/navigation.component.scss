@@ -1,5 +1,6 @@
 $background-color: #173a34;
 $font-color: #99C1B7;
+$topSideSpacing: 30px;
 
 .hamIcon{
     width: 20px;
@@ -40,34 +41,31 @@ $font-color: #99C1B7;
         .logos{
           ul{
             display: flex;
+            padding: 0px;
+            margin-left: 30px;
           }
         }
         .resumeButton{
-          padding: 5px;
           button{
             margin-top: 0px;
-            
+            margin-right: 20px;
+            margin-top: 10px;
           }
         }
 
         img{
-          // float: left;
-          padding-right: 30px;
-
+          padding-right: 0px;
           width: 30px;
-          // position: absolute;
-          margin-left: 10px;
+          height: 30px;
         }
         
       }
 
       .navigationMenu ul {
-
         
         li{
-          // float: right;
+          margin-right: $topSideSpacing / 2;
           list-style: none;
-          margin-right: 30px;
           margin-top: 0px;
         }
     }

@@ -2,6 +2,7 @@
 
 $background-color: #173a34;
 $font-color: #99C1B7;
+$paragraph-font-size: 16px;
 
 body{
   padding: 0px;
@@ -21,22 +22,27 @@ html{
               }
 
               h1{
-                font-size: 3vw;
                 border: 0px;
                 margin: 0px;
                 margin-top: 15vh;
                 color: white;
-                font-family: 'MadameGretthaDemoRegular' ;
+                font-family: 'Libre Baskerville', serif;               
+                font-size: $paragraph-font-size * 5;
+                font-weight: 400;
             }
 
             h2{
               font-size: 2vw;
+              font-weight: 300;
+              font-family: 'Libre Baskerville', serif; 
             }
     
             h3{
-              font-size: 1.4vw;
+              font-size: 1.3vw;
+              font-weight: 900;
             }
             p{
-              font-size: 1.1vw;
+              font-size: $paragraph-font-size;
+              font-weight: 300;
             }
 }
