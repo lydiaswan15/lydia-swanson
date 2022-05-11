@@ -3,6 +3,7 @@
 $background-color: #173a34;
 $font-color: #99C1B7;
 $paragraph-font-size: 16px;
+$lightHeading: #CCE0DB;
 
 body{
   padding: 0px;
@@ -35,11 +36,13 @@ html{
               font-size: 2vw;
               font-weight: 300;
               font-family: 'Libre Baskerville', serif; 
+              color: $lightHeading;
             }
     
             h3{
               font-size: 1.3vw;
               font-weight: 900;
+              color: $lightHeading
             }
             p{
               font-size: $paragraph-font-size;

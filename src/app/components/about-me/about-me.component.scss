@@ -2,6 +2,16 @@
     padding-right: 50px;
     padding-left: 50px;
 
+    .whatIDo{
+        margin: 0px;
+        margin-top: 250px;
+        h2{
+            text-align: center;
+            margin: 0px;
+            margin-bottom: 2em;
+        }
+    }
+
     .myStory{
         display: grid;
         grid-template-columns: .66fr .33fr;

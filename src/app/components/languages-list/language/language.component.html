@@ -5,5 +5,13 @@
     </div>
     <p>{{language.description}}</p>
 
-    <a href="{{language.exampleLink}}" target="_blank">{{language.exampleName}}</a>
+    <div class="callToAction">
+        <div class="icon">
+            <a href="{{language.exampleLink}}" *ngIf="language.exampleLink !== ''" target = "_blank"><img src="../../../../assets/files/folder-24.png" alt="folderIcon"></a>
+        </div>
+
+        <div class ="text">
+            <p>{{language.exampleName}}</p>
+        </div>
+    </div>
 </div>
