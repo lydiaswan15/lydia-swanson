@@ -1,17 +1,322 @@
 $paragraph-font-size: 16px;
 
-.aboutMeContainer{
-    img{
-        display: none;
+@media screen and (max-width: 633px){
+    .aboutMeContainer{
+        h1{
+            font-size: 10px;
+        }
     }
+
+    .home{
+        height: 100vh; 
+        position: relative;
+    
+    }
+    .aboutMeContainer{
+        justify-content: center;
+        position: absolute;
+        border: 0px;
+        top: 30vh;
+    
+        text-align: center;
+    
+        .personalInfo{
+            text-align: left;
+        }
+    
+        h1, h3, p{
+            margin: 0px;
+            padding: 0px;
+        }
+    
+        h1{
+            font-size: 40px;
+            margin-left: 170px;
+            height: 95px;
+        }
+    
+        h3{
+            font-size: $paragraph-font-size;
+            margin-left: 170px;
+            margin-top: 20px;
+        }
+        p{
+            margin-top: $paragraph-font-size * 1.5;
+            margin-bottom: $paragraph-font-size;
+        }
+        img{
+            position: absolute;
+            top: 0;
+            left: 0;
+            // padding: 10px;
+            // padding-left: 0px;
+            // margin-right: 25px;
+            // display:inline;
+            height: 150px;
+            width: 150px;
+            border-radius: 200px;
+            opacity: 0;
+            animation: onLoad 1s .5s;
+            animation-fill-mode: forwards;  
+    
+        }
+        ul{
+            margin-top: -20px;
+        }
+    
+        #downArrow{
+            position: absolute;
+            margin-bottom: 0px;
+            margin-top: 45%;
+            font-size: $paragraph-font-size * 2;
+            opacity: 0;
+            animation: downArrow 4s 2s;
+        }
+    
+    }
+}
+
+@media (min-width: 633px) and (max-width: 633px){
+    .aboutMeContainer{
+        h1{
+            font-size: 10px;
+        }
+        h3{
+            margin-top: 0px;
+            background-color: yellow;
+        }
+    }
+
+    .home{
+        height: 100vh; 
+        position: relative;
+    
+    }
+    .aboutMeContainer{
+        justify-content: center;
+        position: absolute;
+        border: 0px;
+        top: 30vh;
+    
+        text-align: center;
+    
+        .personalInfo{
+            text-align: left;
+        }
+    
+        h1, h3, p{
+            margin: 0px;
+            padding: 0px;
+        }
+    
+        h1{
+            font-size: 40px;
+            margin-left: 170px;
+            height: 70px;
+        }
+    
+        h3{
+            font-size: $paragraph-font-size;
+            margin-left: 170px;
+            margin-top: 50px;
+        }
+        p{
+            margin-top: $paragraph-font-size * 1.5;
+            margin-bottom: $paragraph-font-size;
+        }
+        img{
+            position: absolute;
+            top: 0;
+            left: 0;
+            // padding: 10px;
+            // padding-left: 0px;
+            // margin-right: 25px;
+            // display:inline;
+            height: 150px;
+            width: 150px;
+            border-radius: 200px;
+            opacity: 0;
+            animation: onLoad 1s .5s;
+            animation-fill-mode: forwards;  
+    
+        }
+        ul{
+            margin-top: -20px;
+        }
+    
+        #downArrow{
+            position: absolute;
+            margin-bottom: 0px;
+            margin-top: 45%;
+            font-size: $paragraph-font-size * 2;
+            opacity: 0;
+            animation: downArrow 4s 2s;
+        }
+    
+    }
+}
+
+@media (min-width: 633px) and (max-width: 790px){
+    .aboutMeContainer{
+        h1{
+            font-size: 10px;
+        }
+        h3{
+            margin-top: 20px;
+        }
+    }
+
+    .home{
+        height: 100vh; 
+        position: relative;
+    
+    }
+    .aboutMeContainer{
+        justify-content: center;
+        position: absolute;
+        border: 0px;
+        top: 30vh;
+    
+        text-align: center;
+    
+        .personalInfo{
+            text-align: left;
+        }
+    
+        h1, h3, p{
+            margin: 0px;
+            padding: 0px;
+        }
+    
+        h1{
+            font-size: 40px;
+            margin-left: 170px;
+            height: 70px;
+        }
+    
+        h3{
+            font-size: $paragraph-font-size;
+            margin-left: 170px;
+            margin-top: 50px;
+        }
+        p{
+            margin-top: $paragraph-font-size * 1.5;
+            margin-bottom: $paragraph-font-size;
+        }
+        img{
+            position: absolute;
+            top: 0;
+            left: 0;
+            // padding: 10px;
+            // padding-left: 0px;
+            // margin-right: 25px;
+            // display:inline;
+            height: 150px;
+            width: 150px;
+            border-radius: 200px;
+            opacity: 0;
+            animation: onLoad 1s .5s;
+            animation-fill-mode: forwards;  
+    
+        }
+        ul{
+            margin-top: -20px;
+        }
+    
+        #downArrow{
+            position: absolute;
+            margin-bottom: 0px;
+            margin-top: 45%;
+            font-size: $paragraph-font-size * 2;
+            opacity: 0;
+            animation: downArrow 4s 2s;
+        }
+    
+    }
+
+}
+
+@media (min-width: 790px) and (max-width: 1355px){
+
+.home{
+    height: 100vh; 
+    position: relative;
+
+}
+.aboutMeContainer{
+    justify-content: center;
+    position: absolute;
+    border: 0px;
+    top: 30vh;
+
+    text-align: center;
+
+    .personalInfo{
+        text-align: left;
+    }
+
+    h1, h3, p{
+        margin: 0px;
+        padding: 0px;
+    }
+
+    h1{
+        font-size: 40px;
+        margin-left: 170px;
+        height: 70px;
+    }
+
+    h3{
+        font-size: $paragraph-font-size;
+        margin-left: 170px;
+        margin-top: 50px;
+    }
+    p{
+        margin-top: $paragraph-font-size * 1.5;
+        margin-bottom: $paragraph-font-size;
+    }
+    img{
+        position: absolute;
+        top: 0;
+        left: 0;
+        // padding: 10px;
+        // padding-left: 0px;
+        // margin-right: 25px;
+        // display:inline;
+        height: 150px;
+        width: 150px;
+        border-radius: 200px;
+        opacity: 0;
+        animation: onLoad 1s .5s;
+        animation-fill-mode: forwards;  
+
+    }
+    ul{
+        margin-top: -20px;
+    }
+
+    #downArrow{
+        position: absolute;
+        margin-bottom: 0px;
+        margin-top: 45%;
+        font-size: $paragraph-font-size * 2;
+        opacity: 0;
+        animation: downArrow 4s 2s;
+    }
+
+}
+
+}
+
+// animation
+
+.aboutMeContainer{
     h3{
         opacity: 0;
         animation: onLoad 1s .25s;
         animation-fill-mode: forwards;
     }
     h1{
-        border: 0px;
-        margin: 0px;
         opacity: 0;
         color: white;
         animation: onLoad 1s .5s;
@@ -36,7 +341,8 @@ $paragraph-font-size: 16px;
 
 
 
-@media only screen and (min-width: 768px){
+@media only screen and (min-width: 1355px){
+
     .home{
         height: 100vh; width: 100%;
         position: relative;
@@ -47,7 +353,7 @@ $paragraph-font-size: 16px;
         display: flex;
         border: 0px;
         top: 30vh;
-
+    
         h1, h3, p{
             margin: 0px;
             padding: 0px;
@@ -58,24 +364,26 @@ $paragraph-font-size: 16px;
         p{
             margin-top: $paragraph-font-size * 1.5;
             margin-bottom: $paragraph-font-size;
+            display: absolute;
         }
         img{
+            display: inline;
             padding: 10px;
             padding-left: 0px;
             margin-right: 25px;
             display:inline;
-            height: 200px;
-            width: 200px;
+            height: 150px;
+            width: 150px;
             border-radius: 200px;
             opacity: 0;
             animation: onLoad 1s .5s;
             animation-fill-mode: forwards;  
-
+    
         }
         ul{
             margin-top: -20px;
         }
-
+    
         #downArrow{
             position: absolute;
             margin-bottom: 0px;
@@ -84,8 +392,42 @@ $paragraph-font-size: 16px;
             opacity: 0;
             animation: downArrow 4s 2s;
         }
-
+    
     }
+    
+    // animation
+    
+    .aboutMeContainer{
+        h3{
+            opacity: 0;
+            animation: onLoad 1s .25s;
+            animation-fill-mode: forwards;
+        }
+        h1{
+            border: 0px;
+            margin: 0px;
+            opacity: 0;
+            color: white;
+            animation: onLoad 1s .5s;
+            animation-fill-mode: forwards; 
+        }
+    
+        ul{
+            opacity: 0;
+            list-style: none;
+            animation: onLoad 1s 1s;
+            display: flex;
+            animation-fill-mode: forwards;
+            margin-top: 0px;
+            padding-left: 0px;
+        }
+        p{
+            opacity: 0;
+            animation: onLoad 1s .75s;
+            animation-fill-mode: forwards;
+        }
+    }
+    
 }
 
 @keyframes onLoad {
