@@ -18,7 +18,7 @@ export class HomeComponent implements OnInit {
   }
 
   onDownloadPDF(){
-    const pdfUrl = '../assets/files/LydiaSwanson_Resume.pdf';
+    const pdfUrl = '../assets/files/lydia-swanson-resume.pdf';
     const pdfName = 'lydia_swanson_resume';
     FileSaver.saveAs(pdfUrl, pdfName);
   }
