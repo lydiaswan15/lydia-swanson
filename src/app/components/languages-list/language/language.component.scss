@@ -7,7 +7,8 @@ $lightHeading: #CCE0DB;
 
 .language{
     // width: 255px;
-    width: 17.75vw;
+    min-width:150px;
+    max-width: 250px;
     height: 275px;
     border-radius: 2%;
     padding: 20px;

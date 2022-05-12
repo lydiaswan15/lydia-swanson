@@ -1,37 +1,55 @@
-.about-me-container{
-    padding-right: 50px;
-    padding-left: 50px;
 
-    .whatIDo{
-        margin: 0px;
-        margin-top: 250px;
-        h2{
-            text-align: center;
-            margin: 0px;
-            margin-bottom: 2em;
-        }
+img{
+    display: none;
+}
+
+.myStory{
+    h2{
+        text-align: center;
     }
+}
 
-    .myStory{
-        display: grid;
-        grid-template-columns: .66fr .33fr;
-        margin-bottom: 25vh;
+.whatIDo{
+    margin: 0px;
+    margin-top: 250px;
+    h2{
+        text-align: center;
+        margin: 0px;
+        margin-bottom: 2em;
+    }
+}
+
+@media screen and (min-width: 1000px){
+
+    .about-me-container{
+        padding-right: 50px;
+        padding-left: 50px;
     
-        .storyBody{
-            grid-column: 1;
-            display: relative;
-        }
     
-        .imgBox{
-            img{
-                display: block;
-                margin-right: auto;
-                margin-left: auto;
-                float: right;
-                width: 70%;
-                grid-column: 2;
+        .myStory{
+            display: grid;
+            grid-template-columns: .66fr .33fr;
+            margin-bottom: 25vh;
+            h2{
+                text-align: left;
             }
-    
+        
+            .storyBody{
+                grid-column: 1;
+                display: relative;
+            }
+        
+            .imgBox{
+                img{
+                    display: block;
+                    margin-right: auto;
+                    margin-left: auto;
+                    float: right;
+                    width: 70%;
+                    grid-column: 2;
+                }
+        
+            }
         }
     }
 
