@@ -26,7 +26,7 @@ export class LanguagesListComponent implements OnInit {
     "Site built with only CSS", 
     "https://github.com/lydiaswan15/wdd331ZenGarden.github.io.git"),
     new Language("Angular", 
-    "I have recently started learning Angular and am loving this framework! I’ve worked on a few project in Angular and this site is built using Angular and Firebase. ",
+    "I have recently started learning Angular and am loving this framework! I’ve worked on a few projects in Angular and this site is built using Angular and Firebase. ",
     "../../../assets/files/icons8-angularjs-32.png", 
     "Code to this portfolio", 
     "https://github.com/lydiaswan15/lydia-swanson.git"),

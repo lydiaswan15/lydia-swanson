@@ -31,7 +31,7 @@ import { LanguagesListComponent } from './components/languages-list/languages-li
     ContactComponent,
     AboutMeComponent,
     LanguageComponent,
-    LanguagesListComponent,
+    LanguagesListComponent
   ],
   imports: [
     BrowserModule, 
@@ -42,8 +42,7 @@ import { LanguagesListComponent } from './components/languages-list/languages-li
       {path: '', redirectTo: '/home', pathMatch: 'full' },
       {path: 'home', component: HomeComponent}, 
       {path: 'contact', component:ContactComponent}, 
-      {path: 'about-me', component:AboutMeComponent},
-      {path: 'assets/files/lydia-swanson-resume.pdf', redirectTo: '../assets/files/lydia-swanson-resume.pdf'}
+      {path: 'about-me', component:AboutMeComponent}
     ])
   ],
   providers: [],
