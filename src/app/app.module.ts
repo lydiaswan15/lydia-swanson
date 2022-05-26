@@ -42,7 +42,8 @@ import { LanguagesListComponent } from './components/languages-list/languages-li
       {path: '', redirectTo: '/home', pathMatch: 'full' },
       {path: 'home', component: HomeComponent}, 
       {path: 'contact', component:ContactComponent}, 
-      {path: 'about-me', component:AboutMeComponent}
+      {path: 'about-me', component:AboutMeComponent},
+      {path: 'assets/files/lydia-swanson-resume.pdf', redirectTo: '../assets/files/lydia-swanson-resume.pdf'}
     ])
   ],
   providers: [],
